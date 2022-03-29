@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-26T12:45:36.103Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="yJ-XovvHYCzEMFn3Yg7X" version="17.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-29T09:15:36.337Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="Nu-JTPJlKicsLtvJrKNi" version="17.1.3" type="github">
   <diagram id="ecxEaGqwJ6rMhj0Ag31n" name="Page-1">
     <mxGraphModel dx="1452" dy="845" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="500" pageHeight="300" math="0" shadow="0">
       <root>
@@ -258,7 +258,7 @@
             <mxPoint x="-293.29999999999995" y="360.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYv4UDhDX6fczY7a3sdy-21" value="&lt;font color=&quot;#000000&quot;&gt;Teacher Tensor&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KYv4UDhDX6fczY7a3sdy-21" value="&lt;font color=&quot;#000000&quot;&gt;Teacher Embedding&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-364" y="445" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KYv4UDhDX6fczY7a3sdy-22" value="" style="endArrow=none;html=1;dashed=1;fontFamily=Times New Roman;fontColor=#000000;strokeColor=#000000;strokeWidth=1;endFill=0;startArrow=classicThin;startFill=1;" edge="1" parent="1">
@@ -309,7 +309,7 @@
         <mxCell id="KYv4UDhDX6fczY7a3sdy-33" value="&lt;font&gt;CI&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;strokeColor=#009900;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-364" y="392" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KYv4UDhDX6fczY7a3sdy-34" value="&lt;font color=&quot;#000000&quot;&gt;JCL&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CCCC;strokeColor=#006666;fontFamily=Times New Roman;" vertex="1" parent="1">
+        <mxCell id="KYv4UDhDX6fczY7a3sdy-34" value="&lt;font color=&quot;#000000&quot;&gt;JCL / CE&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00CCCC;strokeColor=#006666;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-364" y="339" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KYv4UDhDX6fczY7a3sdy-36" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;fontFamily=Times New Roman;fontColor=#000000;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;strokeColor=#000000;strokeWidth=1;rounded=0;dashPattern=1 4;" edge="1" parent="1" source="KYv4UDhDX6fczY7a3sdy-9" target="KYv4UDhDX6fczY7a3sdy-41">
@@ -368,8 +368,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYv4UDhDX6fczY7a3sdy-55" value="Tradition Distillation Dataflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontColor=#000000;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="-57" y="528" width="158" height="15" as="geometry" />
+        <mxCell id="KYv4UDhDX6fczY7a3sdy-55" value="Traditional teacher-student Dataflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontColor=#000000;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="528" width="195" height="15" as="geometry" />
         </mxCell>
         <mxCell id="KYv4UDhDX6fczY7a3sdy-56" value="" style="endArrow=none;html=1;dashed=1;fontFamily=Times New Roman;fontColor=#000000;strokeColor=#000000;strokeWidth=1;endFill=0;startArrow=classicThin;startFill=1;dashPattern=1 1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -380,8 +380,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KYv4UDhDX6fczY7a3sdy-57" value="Proposed Distillation Dataflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontColor=#000000;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
-          <mxGeometry x="-57" y="542" width="153" height="15" as="geometry" />
+        <mxCell id="KYv4UDhDX6fczY7a3sdy-57" value="Proposed teacher-student Dataflow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontColor=#000000;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="-57" y="542" width="175" height="15" as="geometry" />
         </mxCell>
         <mxCell id="KYv4UDhDX6fczY7a3sdy-60" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66CC00;strokeColor=#009900;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-93.88" y="629.25" width="30" height="10" as="geometry" />
